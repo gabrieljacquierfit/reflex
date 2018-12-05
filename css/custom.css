@@ -5,7 +5,20 @@
 
 .custom-not-active {
     pointer-events: none;
-    cursor: default;
-    text-decoration: none;
+    text-decoration: none !important;
     color: black;
+}
+
+.custom-image-logo-login {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.custom-image-logo-header {
+    width: 10%;
+    margin-top: 12px;
+    margin-bottom: 10px;
 }
